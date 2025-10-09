@@ -1,7 +1,0 @@
-
-Anti-overfitting strategies applied:
-- RandomForest: tune max_depth, min_samples_leaf, cross-validation.
-- ANN: dropout, L2, BatchNormalization, EarlyStopping (restore_best_weights).
-- Preprocessing: StandardScaler for numeric features, OneHotEncoder for crop.
-Suggestions to further reduce overfitting:
-- Use k-fold CV or repeated CV, feature selection, ensembling, per-crop regressors when appropriate.
